@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 19px;
+}
+body{
+    background-image: url(../image/bg-pattern-top.svg),url(../image/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 175vw;
+    background-position: top -80vw left -120vw, bottom -80vw right -120vw;
+    background-color: hsl(185, 75%, 39%)
+}
+
+.item{
+    display: grid;
+    justify-content: center;
+    margin-top: 280px;
+    position: relative;
+    overflow: hidden;
+
+}
+.image1 img{
+    border-radius: 7px;
+}
+.item2{
+    background-color: white;
+    border-radius: 7px;
+}
+.image2{
+    padding-left: 130px;
+    padding-bottom: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    transform: translatey(-15%);
+   
+}
+.image2 img{
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+.paragraph1{
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 70px;
+    padding-left: 10px;
+}
+.paragraph1 p {
+    font-weight: bold;
+}
+.paragraph1 span{
+    color: hsl(227, 10%, 46%);
+}
+.paragraph2{
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: hsl(227, 10%, 46%);
+}
+.flp{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+.light{
+    color: hsl(227, 10%, 46%);
+}
+.likes{
+    padding: 0 50px;
+}
+.likes span{
+    font-weight: bold;
+}
+.followers span{
+    font-weight: bold;
+}
+.photos span{
+    font-weight: bold;
+}
+
+
+
