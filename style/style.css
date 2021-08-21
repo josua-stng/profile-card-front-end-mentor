@@ -15,7 +15,7 @@ body{
 .item{
     display: grid;
     justify-content: center;
-    margin-top: 280px;
+    margin-top: 230px;
     position: relative;
     overflow: hidden;
 
